@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.title
+{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: #ffffff;
+    font-size: 55px;
+}
+
+.logo 
+{
+    width: 112px;
+    height: 112px;
+}
+
+#mostrar
+{
+    justify-content: center;
+}
+
+#container
+{
+    width: 100%;
+    height: auto;
+    background-color: #EDEDED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-product
+{
+    width: 300px;
+    height: 350px;
+    background-color: #FDD8ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.05);
+}
+
+img
+{
+    width: 150px;
+    height: 150px;
+}
+
+p
+{
+    text-align: justify;
+    margin: 5px 20px;
+    font-size: 11px;
+}
